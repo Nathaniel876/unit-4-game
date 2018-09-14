@@ -1,0 +1,16 @@
+body{
+    background-image: url("../images/backpic.jpg" ) 
+}
+/* #winScore,
+#loseScore,
+#pickedNum,
+#userNum{
+
+    
+    } */
+
+header{
+       margin: auto;
+    color: burlywood;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
