@@ -1,16 +1,29 @@
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 body{
     background-image: url("../images/backpic.jpg" ) 
 }
-/* #winScore,
-#loseScore,
-#pickedNum,
-#userNum{
 
-    
-    } */
 
-header{
+
+h1{
        margin: auto;
     color: burlywood;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+.introduction{
+    background-color: skyblue;
+}
+
+ 
+.heros{
+    margin: auto;
+}
+img{
+    margin-top: 40px;
+    padding: 30px 0 0 20px;
+    height:150px;
+    width:150px;
+    margin-left: 70px;
 }
