@@ -1,65 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en-us">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Revengers</title>
-      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/boostrap.css">
-    <!-- <embed src="Guns N' Roses - Welcome To The Jungle.mp3" autostart="true" loop="infinite" width="2" height="0"> -->
+  <title>Marvel RPG</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-
 <body>
-    <div id="container-fluid">
-        <div id="wrapper">
+  
 
-            <header>
-                <h1><strong>The Revengers</strong></h1>
-            </header>
-            <div class="Intruduction">
-            <p>In this game you have to choose the right hero to gather up.To match the villains power level. <div class="numberGiven">_</div></p>
-            <p>With great power come great responsibility.....You...you saw what i did there.I put a little something for the fans.</p>
-            <p>Good Luck...your going to need it.</p>
-                </div>
-                <br>
+  </div>
 
-                
-           
-            <div class="container ">
-                <div class="row">
-                    <div class="col-md-4 offset-md-4" id="winScore">0</div>
-                    <div class="col-md-4 offset-md-4"></div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 offset-md-4" id="loseScore">0</div>
-                    <div class="col-md-4 offset-md-4"></div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 offset-md-4" id="pickedNum">_</div>
-                    <div class="col-md-4 offset-md-4"></div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 offset-md-4" id="UserNum">_</div>
-                    <div class="col-md-4 offset-md-4"></div>
-                </div>
-            </div>
-            </div>
-        </div>
-        
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 character-section">
+        <section class="section-label"> Pick a Character</section>
+        <section id="select-character" ></section>
+      </div>
     </div>
-    <div id="hitBox">Hit It!</div>
-	<div class="heros">
-		<img src="assets/images/pool.png" class=gemImage id="pool" alt="Blue Gem">
-		<img src="assets/images/groot.jpg" class=gemImage id="groot" alt="Green Gem">
-		<img src="assets/images/duck.jpg" class=gemImage id= "duck" alt="Red Gem">
-		<img src="assets/images/man.jpg" class=gemImage id= "man" alt="Yellow Gem">
-	</div>
-
-            <script type="text/javascript" src="assets/javascript/game.js"></script>
-</body>
-
-</html>
-
-
-
+    <div class="row">
+      <div class="col-md-12 character-section">
+        <section class="section-label">Your enemies are</section>
+        <section id="enemies-lists"></section>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 character-section">
+        <section class="section-label">Opponent</section>
+        <section id="opponent"></section>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 button-section">
+        <section class="section-label attak">Fight section</section>
+        <button id="button-attack" class="btn attack" value="attack">Attack</button>
+        <button id="button-restart" class="btn restart" value="restart">Restart</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 message-section">
+        <label class="message"></label>
+      </div>  
+      </body>
+      </html>
